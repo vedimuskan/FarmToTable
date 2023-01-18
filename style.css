@@ -1,0 +1,428 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Merienda', cursive;
+    scroll-behavior: smooth;
+}
+
+#slider{
+    background-image: url(./assets/food1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    animation: bg 15s infinite;
+    z-index: -200;
+}
+
+@keyframes  bg{
+    0%{
+        background-image: url(./assets/food1.jpeg);
+    }
+    10%{
+        background-image: url(./assets/food1.jpeg);
+    }
+    20%{
+        background-image: url(./assets/food1.jpeg);
+    }
+    40%{
+        background-image: url(./assets/food2.jpeg);
+    }
+    60%{
+        background-image: url(./assets/food2.jpeg);
+    }
+    80%{
+        background-image: url(./assets/food3.jpeg);
+    }
+    100%{
+        background-image: url(./assets/food3.jpeg);
+    }
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(10, 10, 10, 0.815),rgba(10, 10, 10, 0.815));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+    top:30px;
+    position: absolute;
+    right: 3rem;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(247, 151, 7);
+    display:block;
+    margin:auto;
+    transition:0.3s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.text-box{
+    width:90%;
+    color: rgb(247, 151, 7);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 3.5rem;
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    font-size: 5rem;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    animation: show 1s ease-in-out infinite;
+}
+
+@keyframes show {
+    0%{
+        color: rgb(247, 151, 7);
+    }
+    25%{
+        color:whitesmoke;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: rgb(247, 151, 7);
+    }
+}
+
+.hero-btn:hover{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+nav .fas{
+    display:none;
+}
+
+.list{
+    color: whitesmoke;
+    background: transparent;
+    outline: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 2rem;
+    display: none;
+    transition: 0.5s;
+}
+
+#logo a{
+    background-color: rgb(247, 151, 7);
+    color: white;
+    background-size: contain;
+    border-radius: 50%;
+    padding: 5px 8px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#logo a:first-child{
+    padding: 0px 12px;
+    transition: 0.5s;
+}
+
+#logo a:hover{
+    color: rgb(247, 151, 7);
+    background-color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#AboutUs{
+    background-image: url(./assets/footer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#AboutUs footer{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.719),rgba(10, 10, 10, 0.815));
+}
+
+@media screen and (max-width: 700px){
+    .text-box h1{
+        font-size:62px;
+    }
+    .nav-links ul li{
+        display:block;
+    }
+    .nav-links{
+        position: absolute;
+        background: rgb(247, 151, 7);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        display: block;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fas{
+        display:block;
+        color:#fff;
+        margin:10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding:30px;
+    }
+    .text-box h1{
+        font-size: 2.5rem;
+    }
+    .list{
+        display: block;
+        z-index: 200;
+        top:5px;
+    }
+}
+
+@media screen and (max-height: 768px){
+    .text-box{
+        margin-top: 2rem;
+    }
+}
+.menu #menu-flters {
+    padding: 0;
+    margin: 0 auto 0 auto;
+    list-style: none;
+    text-align: center;
+    border-radius: 50px;
+  }
+  
+  .menu #menu-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #444444;
+    margin: 0 3px 10px 3px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+    border: 2px solid #ffb03b;
+    border-radius: 50px;
+  }
+  
+  .menu #menu-flters li:hover,
+  .menu #menu-flters li.filter-active {
+    color: #fff;
+    background: #ffb03b;
+  }
+  
+  .menu #menu-flters li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu .menu-content {
+    margin-top: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .menu .menu-content::after {
+    content: "......................................................................""....................................................................""....................................................................";
+    position: absolute;
+    left: 20px;
+    right: 0;
+    top: -4px;
+    z-index: 1;
+    color: #dad8d4;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  
+  .menu .menu-content div{
+    padding-right: 10px;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    font-weight: 700;
+    color: #ff9b08;
+  }
+  
+  .menu .menu-content span {
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    padding: 0 10px;
+    font-weight: 600;
+  }
+  
+  .menu .menu-ingredients {
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Comic Neue", sans-serif;
+    color: #948c81;
+  }
+  
+  /*--------------------------------------------------------------
+  # Specials
+  --------------------------------------------------------------*/
+  .specials {
+    overflow: hidden;
+  }
+  
+  .specials .nav-tabs {
+    border: 0;
+  }
+  
+  .specials .nav-link {
+    border: 0;
+    padding: 12px 15px 12px 0;
+    transition: 0.3s;
+    color: #433f39;
+    border-radius: 0;
+    border-right: 2px solid #e8e7e4;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  
+  .specials .nav-link:hover {
+    color: #ffb03b;
+  }
+  
+  .specials .nav-link.active {
+    color: #ffb03b;
+    border-color: #ffb03b;
+  }
+  
+  .specials .tab-pane.active {
+    -webkit-animation: fadeIn 0.5s ease-out;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .specials .details h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #433f39;
+  }
+  
+  .specials .details p {
+    color: #777777;
+  }
+  
+  .specials .details p:last-child {
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 992px) {
+    .specials .nav-link {
+      border: 0;
+      padding: 15px;
+    }
+  
+    .specials .nav-link.active {
+      color: #fff;
+      background: #ffb03b;
+    }
+  }
+
+  /*upi*/
+  .cta{
+    margin:100px auto;
+    width:80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/upi.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color:#fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+#deve{
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width:700px){
+    .cta h1{
+        font-size: 24px;
+    }
+    #deve{
+        display: grid;
+    }
+}
+.pay{
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    border: 3px solid white;
+    padding: 12px 34px;
+    font-size: 20px;
+    background-color: rgb(247, 151, 7);
+    margin-top: 25px;
+    position: relative;
+    cursor: pointer;
+}
+.pay:hover{
+    border:1px solid white;
+    background: rgb(211, 63, 26);
+    color:white;
+    transition: 0.5s;
+}
+
+#upi{
+    height: 300px;
+    display: none;
+    margin: 21px;
+    transition: 0.5 ease;
+}
+.name{
+    color:rgb(247, 151, 7);
+}

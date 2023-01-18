@@ -1,0 +1,2299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm To Table</title>
+    <link rel="shortcut icon" type="images/png" href="./assets/logo2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .forcolor{
+            background:linear-gradient(rgba(10, 46, 21, 0.7), rgba(9, 46, 15, 0.7));
+            color:white;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section id="slider">
+        <section class="header" >
+            <nav>
+                <a><img src="assets/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="#slider">HOME</a></li>
+                        <li><a href="#menu">MENU</a></li>
+                        <li><a href="#AboutUs">SERVICES</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <span class="list" id="list"><i class="fa fa-bars" aria-hidden="true"></i></span>
+            </nav>
+
+            <div class="text-box">
+                <h1>Farm To Table</h1>
+                <p style="font-size: 25px;">Cafe & Restro</p>
+                <a href="#menu" class="hero-btn"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a>
+            </div>
+        </section>
+    </section>
+    <section id="menu" class="menu">
+        <div class="container">
+  
+          <div class="section-title" style="text-align: center;">
+            <h2 style="margin: 35px auto; padding:10px; font-size: 1.5rem; background:rgb(247, 151, 7); ">MENU</h2>
+            <h6 style="margin: 20px auto; font-size: 1.2rem;">click on the type of dish you need and check out the options!</h6>
+          </div>
+  
+          <div class="row">
+            <div class="col-lg-12 flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">Show all</li>
+                <li data-filter=".filter-soups">Soups</li>
+                <li data-filter=".filter-salads">Salads</li>
+                <li data-filter=".filter-appetizers">Appetizers</li>
+                <li data-filter=".filter-Fries">Fries</li>
+                <li data-filter=".filter-VolauVent">Vol-au-vent</li>
+                <li data-filter=".filter-Wraps">Wraps</li>
+                <li data-filter=".filter-Burger">Burger</li>
+                <li data-filter=".filter-Garlic-breads">Garlic breads</li>
+                <li data-filter=".filter-Breads">Breads</li>
+                <li data-filter=".filter-Sandwiches">Sandwiches</li>
+                <li data-filter=".filter-Pasta">Pasta</li>
+                <li data-filter=".filter-pizza">Pizza</li>
+                <li data-filter=".filter-noodles">Noodles</li>
+                <li data-filter=".filter-Sizzlers">Sizzlers</li>
+                <li data-filter=".filter-maincourse">Main course</li>
+                <li data-filter=".filter-cmaincourse">Continental main course</li>
+                <li data-filter=".filter-rice">Rice</li>
+                <li data-filter=".filter-mocktails">Mocktails</li>
+                <li data-filter=".filter-beverage">Beverages</li>
+                <li data-filter=".filter-deserts">Deserts</li>
+                <li data-filter=".filter-accompaniments">Accompaniments</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row menu-container" id="noshow">
+
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Manchow Soup</a><span>&#8377; 130<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Hot and Sour Soup</a><span>&#8377; 130<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Tom-Yum Soup</a><span>&#8377; 140<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Lemon Coriander Soup</a><span>&#8377; 130<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Almond Broccoli Soup</a><span>&#8377; 170<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Cream of Tomato Soup</a><span>&#8377; 130<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Burmese Khow Suey</a><span>&#8377; 200<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Chicken Manchow Soup</a><span>&#8377; 150<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Chicken Hot and Sour Soup</a><span>&#8377; 150<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Chicken Tom-Yum Soup</a><span>&#8377; 160<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Spiced Chicken Shorba</a><span>&#8377; 160<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Chicken Burmese Khow Suey</a><span>&#8377; 230<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Chicken Almond Broccoli Soup</a><span>&#8377; 200<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Prawns Manchow Soup</a><span>&#8377; 220<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Prawns Hot and Sour Soup</a><span>&#8377; 210<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Prawns Tom-Yum Soup</a><span>&#8377; 220<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Prawns Lemon Coriander Soup</a><span>&#8377; 200<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-soups">
+              <div class="menu-content">
+                <a >Prawns Burmese Khow Suey</a><span>&#8377; 290<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Green Salad</a><span>&#8377; 140<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Cottage Green Salad</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Caesar Salad</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span> 
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Roasted Chicken Salad</a><span>&#8377; 320<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Jamaican Chicken Salad</a><span>&#8377; 340<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Chicken and Broccoli Salad</a><span>&#8377; 340<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Chicken and Egg Salad</a><span>&#8377; 340<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-salads">
+              <div class="menu-content">
+                <a >Boiled Egg Salad</a><span>&#8377; 120<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Veg Crispy</a><span>&#8377; 250<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Paneer Chilly</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Schezwan Paneer</a><span>&#8377; 330<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Paneer 65</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Hara Bhara Kabeb</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Kurmure Kabeb</a><span>&#8377; 340<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Cigar Roll</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Paneer Gulati Roll</a><span>&#8377; 340<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Cheese Balls</a><span>&#8377; 290<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Italian Cheese Fingers</a><span>&#8377; 340<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Onion Rings</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Paneer Tikka</a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Peri Peri Paneer</a><span>&#8377; 400<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Pahadi Paneer Tikka</a><span>&#8377; 380<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Reshmi Paneer Tikka</a><span>&#8377; 380<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Achari Paneer Tikka</a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Lasuni Paneer Tikka</a><span>&#8377; 400<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Cheesy Paneer Tikka</a><span>&#8377; 415<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Bharwan Aloo Tikka</a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Angara Soya Chaap</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Pahadi Soya Chaap</a><span>&#8377; 330<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Achari Soya Chaap</a><span>&#8377; 310<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Mushroom Mazedar Tikka</a><span>&#8377; 370<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Mushroom chilly</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Kung Pao Paneer</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Paneer Satay</a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Deghi Paneer</a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Manchurian</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chinese Chopsuey</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Paneer Hongkong</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Humpty Dumpty</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Thai Chilly Potato</a><span>&#8377; 260<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Dahi ke Sholay</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Spider Roll</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Veg Platter</a><span>&#8377; 900<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Stuff Mushroom Herb and Cheese</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Chilly</a><span>&#8377; 320<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Schezwan Chicken</a><span>&#8377; 340<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Fire Chicken</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Kung Pao Chicken</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken 65</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Lollypop</a><span>&#8377; 370<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Drums of Heaven</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Afghani Tawa Tangdi</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Masala Tawa Tangdi</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Peri Peri Tawa Tangdi</a><span>&#8377; 380<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Barbeque Chicken Wings</a><span>&#8377; 320<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Wings on Fire</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Peri Peri Wings</a><span>&#8377; 340<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Tornado Wings</a><span>&#8377; 370<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Nuggets</a><span>&#8377; 330<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Tikka</a><span>&#8377; 380<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Achari Chicken Tikka</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Rajoli Tikka</a><span>&#8377; 450<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Malai Chicken Tikka</a><span>&#8377; 415<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chapli Kebab</a><span>&#8377; 500<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Mutton Chaap</a><span>&#8377; 520<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Banjara Chicken Tikka</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Tandoori Chicken (Half/Full)</a><span>&#8377; 360/600<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div><div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Dijon Glazed Chicken Wrap</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Lasuni Tikka</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Kalmi Tikka (Kebab)</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Aslam Chicken</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Sholey Kebab</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Peshawari Chicken</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Bhuna Tikka</a><span>&#8377; 410<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Satay</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Deghi Chicken</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Dynamite Chicken</a><span>&#8377; 410<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Chicken Platter</a><span>&#8377; 1400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Assorted Non-Veg Platter</a><span>&#8377; 1800<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Crispy Fried Chicken</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >French Farmas Chicken</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Shami Kebab</a><span>&#8377; 510<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Mutton Tikka</a><span>&#8377; 490<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Prawns Chilly</a><span>&#8377; 450<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Schezwan Prawns</a><span>&#8377; 450<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Fire Prawns</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Prawns 65</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Prawns Koliwada</a><span>&#8377; 450<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Butter Garlic Prawns</a><span>&#8377; 460<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Amritsari Fish</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Lasuni Fish</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Prawns Tikka</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Fish Finger</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Golden Fry Prawns</a><span>&#8377; 470<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Devil Prawns</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Dynamite Prawns</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Celery Prawns</a><span>&#8377; 470<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-appetizers">
+              <div class="menu-content">
+                <a >Sunrise Grilled Prawns</a><span>&#8377; 480<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea food
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Margarita</a><span>&#8377; 450<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Farm Fresh</a><span>&#8377; 520<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Paneer Tikka</a><span>&#8377; 650<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Hell & Heaven</a><span>&#8377; 650<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Onion & Bell Pepper</a><span>&#8377; 460<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Mexican Delight</a><span>&#8377; 600<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Skull Padana</a><span>&#8377; 600<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Chicken Tikka</a><span>&#8377; 620<span style="color:red;padding:0 .3em">&#9679;&#8414;</span> </span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Butter Chicken</a><span>&#8377; 620<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Chicken Bonanza </a> <span>&#8377; 900<span style="color:red;padding:0 .3em">&#9679;&#8414;</span> </span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Barbeque Chicken</a> <span>&#8377; 650<span style="color:red;padding:0 .3em">&#9679;&#8414;</span> </span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Flaming Chicken</a> <span>&#8377; 620<span style="color:red;padding:0 .3em">&#9679;&#8414;</span> </span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Polo Forza</a> <span>&#8377; 700<span style="color:red;padding:0 .3em">&#9679;&#8414;</span> </span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a >Chicken Hell & Heaven</a> <span>&#8377; 750<span style="color:red;padding:0 .3em">&#9679;&#8414;</span> </span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+            <div class="menu-content">
+            <a >Veg Hakka Noodles</a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Veg Schezwan Noodles</a><span>&#8377; 250<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Veg Singapore Noodles</a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Veg Chilly Garlic Noodles</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Chicken Hakka Noodles</a><span>&#8377; 280<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Chicken Schezwan Noodles</a><span>&#8377; 300<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Chicken Singapore Noodles</a><span>&#8377; 300<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Chicken Chilly Garlic Noodles</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Prawns Hakka Noodles</a><span>&#8377; 370<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea Food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Prawns Schezwan Noodles</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea Food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Prawns Singapore Noodles</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea Food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-noodles">
+              <div class="menu-content">
+                <a >Prawns Chilly Garlic Noodles</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea Food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Prawns Chilly Garlic Noodles</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea Food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Veg Tawa Sizzler</a><span>&#8377; 500<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Paneer Tikka Sizzler </a><span>&#8377; 560<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Farm to Table Sizzler</a><span>&#8377; 900<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Paneer Steak Sizzler</a><span>&#8377; 700<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Kanchi Manchi Sizzler</a><span>&#8377; 600<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Chinese Garden Sizzler</a><span>&#8377; 650<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Chicken Tikka Sizzler </a><span>&#8377; 700<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Farm to Table Sizzler</a><span>&#8377; 120<span style="color:red;padding:0 .3em">&#9679;&#8414;</span>0</span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Chicken Steak Sizzler</a><span>&#8377; 900<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Chicken Kanchi Sizzler</a><span>&#8377; 700<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Sizzlers">
+              <div class="menu-content">
+                <a >Chicken Garden Sizzler</a><span>&#8377; 750<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Volauvent">
+              <div class="menu-content">
+                <a >Veggie Cheesy Vol-au-Vent</a><span>&#8377; 250<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Jamaican Mushroom Vol-au-Vent</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Barbeque Paneer Vol-au-Vent</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >African Paneer Vol-au-Vent</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Chicken Tikka Vol-au-Vent </a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Jamaican Chicken Vol-au-Vent</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Barbeque Chicken Vol-au-Vent</a><span>&#8377; 370<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >African Chicken Vol-au-Vent </a><span>&#8377; 370<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Butter Chicken Vol-au-Vent </a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-VolauVent">
+              <div class="menu-content">
+                <a >Prawns Vol-au-Vent</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients">
+                Sea Food
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Veggie Cheesy Wrap</a><span>&#8377; 210<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Crispy Paneer Wrap</a><span>&#8377; 250<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Jamaican Veggie Roll</a><span>&#8377; 240<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Schezwan Paneer Wrap </a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Peri Peri Paneer Wrap </a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+          
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Butter Chicken Wrap</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Chicken Tikka Wrap </a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Jamaican Chicken Wrap</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Schezwan Chicken Wrap </a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item Wraps">
+              <div class="menu-content">
+                <a >Egg Wrap</a><span>&#8377; 200<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Fish Wrap</a><span>&#8377; 390<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-Wraps">
+              <div class="menu-content">
+                <a >Prawn Wrap</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-Fries">
+              <div class="menu-content">
+                <a >Salted French Fries</a><span>&#8377; 140<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 menu-item filter-Fries">
+              <div class="menu-content">
+                <a >Peri Peri French Fries</a><span>&#8377; 170<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 menu-item filter-Fries">
+              <div class="menu-content">
+                <a >Jamaican French Fries</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            
+            <div class="col-lg-6 menu-item filter-Fries">
+              <div class="menu-content">
+                <a >Cheesy French Fries</a><span>&#8377; 230<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-Fries">
+              <div class="menu-content">
+                <a >Herb Garlic French Fries</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-Fries">
+              <div class="menu-content">
+                <a >Crispy Chicken Stripes</a><span>&#8377; 300<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Aloo Tikki Burger</a><span>&#8377; 200<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Paneer Tikka Burger</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Chicken Juicy Burger</a><span>&#8377; 320<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Chicken Tikka Burger</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Mutton Kheema Burger</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Fish Fillet Burger</a><span>&#8377; 425<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Prawns Burger</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Burger">
+              <div class="menu-content">
+                <a >Prawns Burger</a><span>&#8377; 430<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Plain Cheese Garlic Bread</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Cheese Burst Garlic Bread</a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Panner Tikka Garlic Bread</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Bruschetta</a><span>&#8377; 250<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Cheesy Chicken Garlic Bread</a><span>&#8377; 280<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Chicken Tikka Garlic Bread</a><span>&#8377; 300<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Garlic-breads">
+              <div class="menu-content">
+                <a >Chicken & Mushroom Garlic Bread</a><span>&#8377; 300<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Tandoori Roti</a><span>&#8377; 35<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Tandoori Naan</a><span>&#8377; 65<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Garlic Naan</a><span>&#8377; 90<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Cheese Garlic Naan</a><span>&#8377; 110<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Kulcha</a><span>&#8377; 55<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Lacchha Paratha</a><span>&#8377; 70<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Bread Basket</a><span>&#8377; 310<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Stuffed Jamaican Chicken Naan</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Breads">
+              <div class="menu-content">
+                <a >Stuffed Peri Peri Chicken Naan</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Veg Mayo Sandwich</a><span>&#8377; 200<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Veg Club Sandwich</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Veg Cottage Cheese Sandwich</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Veg Croissant Sandwich</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Grilled Chicken Mayo Sandwich</a><span>&#8377; 250<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Club Chicken Sandwich</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Chicken Tikka Sandwich</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Sandwiches">
+              <div class="menu-content">
+                <a >Chicken Croissant Sandwich</a><span>&#8377; 400<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Veg Mac & Cheese Pasta</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Veg Arrabiata Pasta</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Veg Alfredo Pasta</a><span>&#8377; 290<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Veg Pink Sauce Pasta</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Cheese Creamy Pasta</a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Aglio Olio Pasta</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Chicken Mac & Cheese Pasta</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Chicken Arrabiata Pasta</a><span>&#8377; 330<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Chicken Alfredo Pasta</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Chicken Pink Sauce Pasta</a><span>&#8377; 360<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Chicken Cheesy Creamy Pasta</a><span>&#8377; 350<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-Pasta">
+              <div class="menu-content">
+                <a >Chicken Aglio Olio Pasta</a><span>&#8377; 450<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Tikka masala </a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Butter masala </a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Lahori </a><span>&#8377; 320<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Kadhai </a><span>&#8377; 310<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Lazedar </a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Toofani</a><span> &#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Chatakedar </a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Sizzling Angara Paneer </a><span>&#8377; 390<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Veg Kohlapuri</a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Desi Tawa Masala </a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Veg Kadhai </a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Mushroom tikka Masala </a><span>&#8377; 380<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Kaju Masala </a><span>&#8377; 450<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Veg Kheema Masala </a><span>&#8377; 290<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Sham Savera Kofta </a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Cheese Kofta Curry </a><span>&#8377; 380<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Lababdar </a><span>&#8377; 390<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Veg. Dewani Handi</a><span>&#8377; 310<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Miloni Masala</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Lucknowi Masala</a><span>&#8377; 360<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Paneer Banjara</a><span>&#8377; 370<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Butter Chicken </a><span>&#8377; 450<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Tikka Masala </a><span>&#8377; 415<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Lahori </a><span>&#8377; 450<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Murgh Musallam</a><span>&#8377; 460<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Rara Murgh </a><span>&#8377; 460<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Matka Chicken</a><span>&#8377; 425<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Sizzling Angara Murgh </a><span>&#8377; 440<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Gauthi Rasoi Murg</a><span>&#8377; 400<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Bhuna Murg</a><span>&#8377; 400<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Toofani</a><span>&#8377; 390<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Lababdar </a><span>&#8377; 415<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Amritsari</a><span>&#8377; 415<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Korma </a><span>&#8377; 440<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Kolhapuri</a><span>&#8377; 410<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Achari</a><span>&#8377; 390<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Achari</a><span>&#8377; 390<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Chicken Kali Miri</a><span>&#8377; 390<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Mutton Rogan Josh</a><span>&#8377;470 <span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Bhuna Gosht</a><span>&#8377; 490<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Mutton Masala</a><span>&#8377; 475<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Mutton Kheema Masala</a><span>&#8377; 450<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Rara Gosht</a><span>&#8377; 650<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Laal Maas</a><span>&#8377; 490<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Dal Gosht</a><span>&#8377; 480<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Nalli Nihari</a><span>&#8377; 520<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Prawns Masala</a><span>&#8377; 560<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients"> Seafood</div>
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Prawns Green Masala</a><span>&#8377; 560<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients"> Seafood</div>
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Prawns Rajwadi</a><span>&#8377; 530<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients"> Seafood</div>
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Amritsari Prawns Gravy</a><span>&#8377; 530<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients"> Seafood</div>
+            </div>
+            <div class="col-lg-6 menu-item filter-maincourse">
+              <div class="menu-content">
+                <a >Amritsari fish gravy</a><span>&#8377; 500<span style="color:red;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients"> Seafood</div>
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Veg Risotto</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Spinach Risotto</a><span>&#8377; 380<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Stuffed Mushroom in Cheese Paprika Sauce</a><span>&#8377; 410<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Chicken Risotto</a><span>&#8377; 410<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Prawns Risotto</a><span>&#8377; 500<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Chicken Stroganoff</a><span>&#8377; 500<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Grilled fish with lemon butter sauce</a><span>&#8377; 600<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-cmaincourse">
+              <div class="menu-content">
+                <a >Prawns Risotto</a><span>&#8377; 500<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Veg fried rice</a><span>&#8377; 260<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Veg burnt garlic rice</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Veg schezwan fried rice</a><span>&#8377; 280<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Veg thai spicy rice</a><span>&#8377; 290<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Steam rice</a><span>&#8377; 170<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Jeera rice</a><span>&#8377; 190<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Veg pot rice</a><span>&#8377; 330<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Veg biryani</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Chicken/Prawns fried rice</a><span>&#8377; 330/430<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Chicken/Prawns burnt Garlic rice</a><span>&#8377; 320/450<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Chicken Schezwan rice</a><span>&#8377; 300<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Chicken/Prawns thai spice rice</a><span>&#8377; 350/500<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Chicken/Prawns Dum Biryani</a><span>&#8377; 370/530<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Dum Gosht Biryani</a><span>&#8377; 520<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Hyderabadi biryani</a><span>&#8377; 400<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-rice">
+              <div class="menu-content">
+                <a >Chicken/Prawns Pot Rice</a><span>&#8377; 370/470<span style="color:red; padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Virgin Mojito</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Minty watermelon</a><span>&#8377; 230<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Blue sky</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Berry cooler</a><span>&#8377; 240<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Ice tea</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+              <div class="menu-ingredients"> Lemon/lychee/peach</div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Bulls melon mojito</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Pina colada</a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Fruit punch</a><span>&#8377; 270<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Purple delight</a><span>&#8377; 210<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Sweet sunrise</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Juzu</a><span>&#8377; 150<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Kiwi cooler</a><span>&#8377; 190<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Passion fruit sprinkle</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Strawberry Dalquiri</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Blueberry Mojito</a><span>&#8377; 230<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Cheesecake(blueberry/strawberry)</a><span>&#8377; 310<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Popcorn</a><span>&#8377; 290<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-mocktails">
+              <div class="menu-content">
+                <a >Blue sky</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Mineral water</a><span>&#8377; 25<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Cold drinks(250ml)</a><span>&#8377; 25<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Oreo overload</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Kit-kat shake</a><span>&#8377; 220<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Ferrero Rocher shake</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Brownie shake</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Nutella shake</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Biscoff shake</a><span>&#8377; 300<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Snickers shake</a><span>&#8377; 260<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Hot chocolate</a><span>&#8377; 150<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Cold coffee</a><span>&#8377; 200<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Fresh lime soda</a><span>&#8377; 80<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Fresh lime water</a><span>&#8377; 60<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Butter milk</a><span>&#8377; 50<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-beverage">
+              <div class="menu-content">
+                <a >Red bull</a><span>&#8377; 180<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >American Nuts</a><span>&#8377; 110<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Vanilla Ice cream</a><span>&#8377; 70<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Chocolate Ice cream</a><span>&#8377; 80<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Strawberry Ice cream</a><span>&#8377; 80<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Sizzling brownie</a><span>&#8377; 230<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Brownie with Ice cream</a><span>&#8377; 200<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Triple sundae</a><span>&#8377; 350<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-deserts">
+              <div class="menu-content">
+                <a >Gulab jamun with ice cream</a><span>&#8377; 100<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Roasted papad(2 pcs)</a><span>&#8377; 45<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Fried papad(2 pcs)</a><span>&#8377; 45<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Masala papad</a><span>&#8377; 65<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Schezwan sauce</a><span>&#8377; 60<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Extra cheese/paneer</a><span>&#8377; 90<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Mayonnaise(Tandoori/Garlic)</a><span>&#8377; 55<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-accompaniments">
+              <div class="menu-content">
+                <a >Raita</a><span>&#8377; 80<span style="color:green;padding:0 .3em">&#9679;&#8414;</span></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        </div>
+    </section>
+  </section>
+
+  <center>
+  <section id="upi">
+    <img src="./assets/pay.jpeg" style="height: 300px; border-radius: 10px;">
+  </section>
+  
+  <section>
+    <button class="pay" id="btnpay" >Pay now</button>
+  </section>
+  <div style="margin-top:20px; color:rgb(211, 63, 26); font-size:30px; border: none;">
+    <h3>OR</h3>
+  </div>
+  <section>
+    <a href="https://link.zomato.com/xqzv/rshare?id=32983950215b9752" target="_blank"><button class="pay" id="btnpay" style="color: white;">Zomato</button></a>
+  </section>
+
+  </center>
+
+  <section class="cta">
+
+    <section class="pb-5 pt-0" id="contact">
+        <div class="container-fluid p-0 py-3 w-75">
+            <iframe class="map" style="align-items: left;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.1944211780615!2d72.7534835143704!3d21.144659689188718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0534f8467e12d%3A0x491f0fcbcc7537ef!2sFarm%20to%20Table%20Cafe%20%26%20Restro!5e0!3m2!1sen!2sin!4v1673545578799!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        </div>
+        <div class="container">
+            <div class="row text-center justify-content-center pt-5">
+                <div class="col-12 col-md-7">
+                    <h1 style="font-size: x-large;">Contact Us</h1>
+                </div>
+            </div>
+    
+            <div class="row justify-content-center pt-4">
+                <div class="col-12 col-md-7">
+                    <form action="mailto: farmtotablecaferestro@gmail.com">
+                        <div class="row">
+                            <div class="col">
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+    
+                        <div class="row mt-4">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                        </div>
+    
+                           
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <button type="submit" class="btn btn-success bg-success" >Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row-100"></div>
+        </div>
+    </section>
+  </section>
+    <section id="AboutUs">
+
+
+        <!-- Footer -->
+        <footer class="text-white text-center">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Our Services</h5>
+
+                        <p><br>
+                          <ul style="list-style: none;">
+                            <li>Take-away is available.</li>
+                            <li>All prices are in INR and GST is extra as applicable.</li>
+                            <li>T&C: Once the order is placed it will not be cancelled</li>
+                          </ul>
+                        </p>
+                        
+                        <div class="container p-0 pb-0 pt-3">
+                            <!-- Section: Social media -->
+                            <section class="mb-4" style="margin:5px 0px 2px;" id="logo">
+                                <a href="https://m.facebook.com/107622244490455/"
+                                    style="margin: 5px 5px; font-size:30px;" target ="_blank"><i class="fa fa-facebook"></i></a>
+                                <!-- Google +-->
+                                <a href="https://www.google.com/search?q=farm+to+table+surat+&rlz=1C1CHBF_enIN953IN953&sxsrf=AJOqlzVx1atG6wtu08fz5tzqq43iESZ1SQ%3A1674052028495&ei=vAHIY5DiHc-C4-EPsZecqAs&ved=0ahUKEwiQsPnjqdH8AhVPwTgGHbELB7UQ4dUDCA8&uact=5&oq=farm+to+table+surat+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIGCAAQFhAeMgYIABAWEB4yAggmMgUIABCGAzIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsANKBAhBGABKBAhGGABQmwFYrApghhBoAXABeACAAZwDiAHzEZIBCTAuNC4zLjEuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp" target ="_blank" class="fa fa-google"
+                                    style="margin: 5px 5px; font-size:30px;"></a>
+                                <!--Instagram-->
+                                <a href="https://www.instagram.com/farmtotable.surat/" target ="_blank" class="fa fa-instagram"
+                                    style="margin: 5px 5px; font-size:30px;"></a>
+                            </section>
+                            <!-- Section: Social media -->
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0";>
+                        <ul class="list-unstyled mb-5">
+                            <li>
+                                <p>
+                                    <a href="https://www.google.com/maps/dir//Farm+to+Table+Cafe+%26+Restro,+2%2FA+Napoleon+Estate+B%2FH+VR+Mall,+Magdalla,+Surat,+Gujarat+395007/@21.1451492,72.7543298,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be0534f8467e12d:0x491f0fcbcc7537ef!2m2!1d72.7556781!2d21.144647" target ="_blank" style="color: white;"><i class="fa fa-map-marker" style="font-size:30px">&nbsp&nbspFarm To Table</i></a>
+                                    <p>2/A Napoleon Estate B/H VR Mall, Magdalla, Surat, Gujarat 395007</p>
+                                  </p>
+                            </li>
+                            <li>
+                                <p><br>
+                                    <i class="fa fa-phone" style="font-size:24px">&nbsp&nbsp9427250008 / 9427141313</i>
+                                </p>
+                            </li>
+                            <li>
+                                <p><br>
+                                    <i class="fa fa-envelope" style="font-size:24px">&nbsp&nbspfarmtotablecaferestro@gmail.com</i>
+                                </p>
+                            </li>
+                            <li>
+                              <p><br>
+                                <i>Time 11.30 am to 11.30 pm</i>
+
+                              </p>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.699);">
+                © 2023 Copyright:
+                <a class="text-white">Farm To Table Cafe & Restro</a>
+            </div>
+            <!-- Copyright -->
+
+            <div class=" pt-3 pb-3"id="deve" style="background-color: rgba(0, 0, 0, 0.932);">
+              <h5>Developed by:</h5>
+              <p><a href="https://www.linkedin.com/in/darshan-patel-a51221247" target="_blank" style="color:white;">Darshan Patel <i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+              <p><a href="https://www.linkedin.com/in/muskan-vedi-3baa84223" target="_blank" style="color:white;">Muskan Vedi <i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+              <p><a href="https://www.linkedin.com/in/dhruv-kulkarni-8055001b2" target="_blank" style="color:white;">Dhruv Kulkarni <i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+              <p><a href="https://www.linkedin.com/in/kumud-gehlot-156010256" target="_blank" style="color:white;">Kumud Gehlot <i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+            </div>
+        </footer>
+        <!-- Footer -->
+    </section>
+    <script src="main.js"></script>
+    <script src="assets/isotope.pkgd.min.js"></script>
+    <script src="assets/isotope.pkgd.js"></script>
+</body>
+</html>
