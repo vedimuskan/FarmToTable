@@ -39,15 +39,18 @@ window.onresize = function(){
     const list = document.getElementById('navLinks');
     if(screen.width>700){
         list.style = "display:block; transition:0.5s"
-        nav.innerHTML = `X`;
+
+    }
+    else{
+      list.style = "display:none;"
+      nav.innerHTML = `<i class="fa fa-bars" aria-hidden="true"></i>`;
     }
 }
 
 window.onload = function(){
     const list = document.getElementById('navLinks');
     if(screen.width<700){
-        list.style = "display:block; transition:0.5s"
-        nav.innerHTML = `X`;
+        list.style = "display:none; "
     }
     typeWriter();
     let menuContainer = select('.menu-container');
