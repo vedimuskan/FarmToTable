@@ -49,6 +49,7 @@ window.onload = function(){
         list.style = "display:block; transition:0.5s"
         nav.innerHTML = `X`;
     }
+    typeWriter();
     let menuContainer = select('.menu-container');
 
     if (menuContainer) {
@@ -98,3 +99,15 @@ const paynow = ()=>{
 }
 
 paybtn.addEventListener('click',paynow);
+
+let i=0;
+const txt = "Farm To Table";
+const type = document.getElementById('typing');
+
+function typeWriter() {
+  if (i < txt.length) {
+    type.innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, 100);
+  }
+}
