@@ -201,7 +201,7 @@ nav .fas{
         height: 100vh;
         width: 200px;
         top: 0;
-        display: block;
+        display: none;
         right: 0;
         text-align: left;
         z-index: 2;
